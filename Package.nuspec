@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Dzianis_Sadouski.MyPackage</id>
+    <version>1.0.0</version>
+    <authors>Dzianis_Sadouski</authors>
+    <owners>Dzianis_Sadouski</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/DenisSadovsky/TestNuget.git</projectUrl>
+    <iconUrl>https://github.com/DenisSadovsky/TestNuget.git</iconUrl>
+    <description>Package description</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>Tag1 Tag2</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="Microsoft.Net.Http" version="2.2.29" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="NugetDemoConsApp\MyClass.cs" target="content\MyFolder\ MyClass.cs"/>
+    <file src="NugetDemoConsApp\DescNuget.html" target="content\DescNuget.html"/>
+    <file src="NugetDemoConsApp\obj\Debug\Interop.AcroBrokerLib.dll" target="lib"/>
+    <file src="NugetDemoConsApp\App.config.transform" target="content" />
+  </files>
+</package>
