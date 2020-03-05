@@ -53,12 +53,6 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="App.config.transform" />
-    <None Include="App.Debug.config">
-      <DependentUpon>App.config</DependentUpon>
-    </None>
-    <None Include="App.Release.config">
-      <DependentUpon>App.config</DependentUpon>
-    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

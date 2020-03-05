@@ -7,8 +7,8 @@
     <owners>Dzianis_Sadouski</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
-    <projectUrl>https://github.com/DenisSadovsky/TestNuget.git</projectUrl>
-    <iconUrl>https://github.com/DenisSadovsky/TestNuget.git</iconUrl>
+    <projectUrl>https://github.com/DenisSadovsky/NugetDemoConsApp.git</projectUrl>
+    <iconUrl>https://github.com/DenisSadovsky/NugetDemoConsApp.git</iconUrl>
     <description>Package description</description>
     <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
     <copyright>Copyright 2020</copyright>
